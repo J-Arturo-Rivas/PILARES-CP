@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Código Cooperemos Pueblo - PILARES</title>
+    <meta name="description" content="Aprende programación, robótica y tecnología en PILARES Cooperemos Pueblo. Cursos de Java, Python, computación básica y avanzada.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="https://pilares.cdmx.gob.mx/storage/app/media/logos/logo-pilares.png" alt="PILARES" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Cooperemos Pueblo</h1>
+                        <span>Escuela de Código</span>
+                    </div>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#cursos" class="nav-link">Cursos</a>
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                    <a href="#inscripciones" class="nav-link">Inscripciones</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Aprende a <span class="highlight">Programar</span> y Transforma tu Futuro</h1>
+                <p class="hero-description">
+                    Únete a la Escuela de Código de PILARES Cooperemos Pueblo y desarrolla las habilidades tecnológicas 
+                    que necesitas para el mundo digital. Cursos de programación, robótica y computación para todas las edades.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#cursos" class="btn btn-primary">Ver Cursos</a>
+                    <a href="#inscripciones" class="btn btn-secondary">Inscríbete Ahora</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Cursos Disponibles</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Estudiantes Graduados</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.5</span>
+                        <span class="stat-label">Meses de Duración</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/programacion-hero.jpg" alt="Programación y Desarrollo" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section id="cursos" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Cursos</h2>
+                <p class="section-description">
+                    Descubre nuestra amplia gama de cursos diseñados para llevarte desde principiante hasta profesional
+                </p>
+            </div>
+            
+            <div class="courses-grid">
+                <!-- Escuela de Código -->
+                <div class="course-card featured">
+                    <div class="course-image">
+                        <img src="images/desarrollo-software.webp" alt="Escuela de Código">
+                        <div class="course-badge">Destacado</div>
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Escuela de Código</h3>
+                        <p class="course-description">
+                            Certifícate como Programador Java o Python (Nivel JR). Aprende los fundamentos de la programación 
+                            y desarrolla aplicaciones reales.
+                        </p>
+                        <div class="course-details">
+                            <div class="detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>Lunes a Jueves</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>17:00 - 19:00</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hourglass-half"></i>
+                                <span>4.5 meses</span>
+                            </div>
+                        </div>
+                        <div class="course-skills">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Algoritmos</span>
+                        </div>
+                        <button class="btn btn-primary course-btn">Más Información</button>
+                    </div>
+                </div>
+
+                <!-- Computación Básica/Avanzada -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/educacion.webp" alt="Computación">
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Computación Básica/Avanzada</h3>
+                        <p class="course-description">
+                            Aprende a usar y mejorar el uso de tu computadora, dispositivo móvil, clases de Excel, Word, 
+                            entre otras paqueterías.
+                        </p>
+                        <div class="course-details">
+                            <div class="detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>Lun/Mié (Básica) - Mar/Jue (Avanzada)</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>15:30-17:00 / 16:00-20:00</span>
+                            </div>
+                        </div>
+                        <div class="course-skills">
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Word</span>
+                            <span class="skill-tag">Internet</span>
+                        </div>
+                        <button class="btn btn-primary course-btn">Más Información</button>
+                    </div>
+                </div>
+
+                <!-- Robótica -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/robotica.jpeg" alt="Robótica">
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Robótica</h3>
+                        <p class="course-description">
+                            Introducción al fascinante mundo de la robótica. Aprende a construir y programar robots 
+                            desde cero.
+                        </p>
+                        <div class="course-details">
+                            <div class="detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>Viernes</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>15:00 - 19:00</span>
+                            </div>
+                        </div>
+                        <div class="course-skills">
+                            <span class="skill-tag">Arduino</span>
+                            <span class="skill-tag">Sensores</span>
+                            <span class="skill-tag">Programación</span>
+                        </div>
+                        <button class="btn btn-primary course-btn">Más Información</button>
+                    </div>
+                </div>
+
+                <!-- Mantenimiento de Equipos -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/mantenimiento.webp" alt="Mantenimiento">
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Mantenimiento de Equipos de Cómputo</h3>
+                        <p class="course-description">
+                            Aprende a diagnosticar, reparar y mantener equipos de cómputo. Conviértete en un técnico especializado.
+                        </p>
+                        <div class="course-details">
+                            <div class="detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>Miércoles y Viernes</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>10:00 - 12:00</span>
+                            </div>
+                        </div>
+                        <div class="course-skills">
+                            <span class="skill-tag">Hardware</span>
+                            <span class="skill-tag">Diagnóstico</span>
+                            <span class="skill-tag">Reparación</span>
+                        </div>
+                        <button class="btn btn-primary course-btn">Más Información</button>
+                    </div>
+                </div>
+
+                <!-- Matemáticas -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/educacion.webp" alt="Matemáticas">
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Matemáticas (Nivel Licenciatura)</h3>
+                        <p class="course-description">
+                            Asesorías y cursos de matemáticas a nivel licenciatura. Refuerza tus conocimientos matemáticos.
+                        </p>
+                        <div class="course-details">
+                            <div class="detail">
+                                <i class="fas fa-user"></i>
+                                <span>Asesorías Personalizadas</span>
+                            </div>
+                        </div>
+                        <div class="course-skills">
+                            <span class="skill-tag">Cálculo</span>
+                            <span class="skill-tag">Álgebra</span>
+                            <span class="skill-tag">Estadística</span>
+                        </div>
+                        <button class="btn btn-primary course-btn">Más Información</button>
+                    </div>
+                </div>
+
+                <!-- Historias para Armar -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/educacion.webp" alt="Historias para Armar">
+                    </div>
+                    <div class="course-content">
+                        <h3 class="course-title">Historias para Armar</h3>
+                        <p class="course-description">
+                            Te invitamos a participar creando una historia de tu autoría. Creación de personajes y animación de escenas.
+                        </p>
+                        <div class="course-details">
+                            <div class="detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>Viernes</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>10:00 - 14:00</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-child"></i>
+                                <span>Edad mínima: 7 años</span>
+                            </div>
+                        </div>
+                        <div class="course-skills">
+                            <span class="skill-tag">Creatividad</span>
+                            <span class="skill-tag">Animación</span>
+                            <span class="skill-tag">Narrativa</span>
+                        </div>
+                        <button class="btn btn-primary course-btn">Más Información</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">¿Qué es PILARES?</h2>
+                    <p class="about-description">
+                        PILARES (Puntos de Innovación, Libertad, Arte, Educación y Saberes) es un programa del Gobierno 
+                        de la Ciudad de México que busca garantizar el derecho a la educación y el acceso al conocimiento 
+                        de manera gratuita y de calidad.
+                    </p>
+                    <p class="about-description">
+                        En Cooperemos Pueblo, nos especializamos en la educación tecnológica, ofreciendo cursos de 
+                        programación, robótica y computación que preparan a nuestros estudiantes para los desafíos 
+                        del mundo digital.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Educación Gratuita</h4>
+                                <p>Todos nuestros cursos son completamente gratuitos</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Certificación Oficial</h4>
+                                <p>Recibe certificados reconocidos por el Gobierno de la CDMX</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Instructores Calificados</h4>
+                                <p>Aprende con profesionales experimentados en tecnología</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/educacion.webp" alt="PILARES Cooperemos Pueblo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inscripciones Section -->
+    <section id="inscripciones" class="enrollment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Inscripciones</h2>
+                <p class="section-description">
+                    ¡Comienza tu camino hacia el futuro digital! Las inscripciones están abiertas.
+                </p>
+            </div>
+            
+            <div class="enrollment-content">
+                <div class="enrollment-info">
+                    <h3>Proceso de Inscripción</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Llena el formulario</h4>
+                                <p>Completa el formulario de pre-inscripción con tus datos básicos</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Entrega documentos</h4>
+                                <p>Presenta tu identificación oficial y comprobante de domicilio</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Confirma tu lugar</h4>
+                                <p>Recibe la confirmación y comienza tus clases</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="requirements">
+                        <h4>Requisitos</h4>
+                        <ul>
+                            <li>Ser mayor de 15 años (excepto Historias para Armar: 7 años mínimo)</li>
+                            <li>Identificación oficial</li>
+                            <li>Comprobante de domicilio</li>
+                            <li>CURP</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="enrollment-form">
+                    <form class="form" id="enrollment-form">
+                        <h3>Formulario de Pre-inscripción</h3>
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edad">Edad *</label>
+                            <input type="number" id="edad" name="edad" min="7" max="100" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="curso">Curso de Interés *</label>
+                            <select id="curso" name="curso" required>
+                                <option value="">Selecciona un curso</option>
+                                <option value="escuela-codigo">Escuela de Código</option>
+                                <option value="computacion-basica">Computación Básica</option>
+                                <option value="computacion-avanzada">Computación Avanzada</option>
+                                <option value="robotica">Robótica</option>
+                                <option value="mantenimiento">Mantenimiento de Equipos</option>
+                                <option value="matematicas">Matemáticas</option>
+                                <option value="historias">Historias para Armar</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="experiencia">Experiencia Previa</label>
+                            <textarea id="experiencia" name="experiencia" rows="3" placeholder="Cuéntanos sobre tu experiencia previa en tecnología (opcional)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Pre-inscripción</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-description">
+                    ¿Tienes preguntas? Contáctanos y te ayudaremos a resolver todas tus dudas.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Cuitláhuac S/N 1, Colonia Santa Cruz Meyehualco<br>Alcaldía Iztapalapa, Ciudad de México</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>220-459-7794</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Coordinador</h4>
+                            <p>Rivas Rosales José Arturo</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horarios de Atención</h4>
+                            <p>Lunes a Viernes: 9:00 - 18:00<br>Sábados: 9:00 - 14:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form" id="contact-form">
+                        <h3>Envíanos un Mensaje</h3>
+                        <div class="form-group">
+                            <label for="contact-nombre">Nombre *</label>
+                            <input type="text" id="contact-nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Correo Electrónico *</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto *</label>
+                            <input type="text" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.8!2d-99.0!3d19.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE4JzAwLjAiTiA5OcKwMDAnMDAuMCJX!5e0!3m2!1ses!2smx!4v1234567890"
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://pilares.cdmx.gob.mx/storage/app/media/logos/logo-pilares.png" alt="PILARES">
+                        <h3>PILARES Cooperemos Pueblo</h3>
+                    </div>
+                    <p>Transformando vidas a través de la educación tecnológica gratuita y de calidad.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#inscripciones">Inscripciones</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Cursos Destacados</h4>
+                    <ul>
+                        <li><a href="#cursos">Escuela de Código</a></li>
+                        <li><a href="#cursos">Robótica</a></li>
+                        <li><a href="#cursos">Computación</a></li>
+                        <li><a href="#cursos">Mantenimiento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> 220-459-7794</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Cuitláhuac S/N 1, Santa Cruz Meyehualco</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PILARES Cooperemos Pueblo. Todos los derechos reservados.</p>
+                <p>Gobierno de la Ciudad de México</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
