@@ -20,12 +20,12 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: var(--text-dark);
-    overflow-x: hidden;
+    background-image: url('IMAGENES/Fondo.jpeg');
+    background-size: cover;          /* La imagen cubre toda la pantalla */
+    background-position: center;     /* Centrada */
+    background-repeat: no-repeat;    /* Sin repetición */
+    background-attachment: fixed;    /* Se queda fija al hacer scroll */
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
